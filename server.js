@@ -64,7 +64,7 @@ app.get("/*", (req, res) => {
   return res.status(401).json({ message: "Route does not exist :(" });
 });
 
-const port = 80 || process.env.PORT;
+const port = 3000 || process.env.PORT;
 
 app.listen(port, () => {
   os.cpuUsage(function (v) {
