@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nodeserver
-        image: friggaTester/nodeapp:latest
+        image: frigga/nodeapp:latest
         ports:
         - containerPort: 3000
         
